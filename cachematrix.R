@@ -1,6 +1,7 @@
-#makeCacheMatrix: This function creates a special "matrix" object that can cache its inverse
+# makeCacheMatrix: This function creates a special "matrix" object that can cache its inverse
+# the 'trick' is crearting a function that stores a list of 4 functions (set, get, setinverse, getinverse)
+# then to access to argument og this list, we have to use $  (see the example below)
 
-## Write a short comment describing this function
 
 makeCacheMatrix <- function(x = matrix()) {
            
